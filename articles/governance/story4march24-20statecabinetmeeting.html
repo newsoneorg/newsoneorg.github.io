@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
         <meta charset="utf-8">
-<meta http-equiv="x-ua-compatible"
-content="IE-edge">
-        <title>NEWSONE.ORG</title>
-        <meta name="description" content="">
-        <meta name="viewport"
-        content="width=device-width initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>NewsOne.Org</title>
+        <meta name="description" content="News website">
         <link rel="stylesheet" type="text/css" href="/css/Style.CSS">
         <!--google fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700& family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/2e1888b842.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-       
-        
 </head>
 
 <body>
         <!--header-->
-        <header>
-                <div class="navigation-container">
-                        <div class="top-head">
-                                <div class="web-name"></div>
-                                <h1>NewsOne</h1>
+        <header class="top-head">
+                        <div class="row">
+                                <div class="col-md-4" style="margin-top: 15px;">
+                                        <h1>NewsOne.org</h1>
+                                </div>
+                                <div class="col-xs-12 col-md-4 offset-md-4 d-none d-sm-none d-md-block">
+                                        <blockquote class="blockquote text-right" >
+                                                <p class="mb-0">“All our dreams can come true, if we have the courage to pursue them.”</p>
+                                                <footer><cite title="Source Title"><i>- Walt Disney</i></footer>
+                                        </blockquote>
+                                </div>
+                        </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgb(255, 135, 0)">
+                <div class="container">
+                        <a class="navbar-brand" href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                </svg>
+                        </a>
+                        <p style="margin-top: 19px; margin-right: 20px;" class="col-xs-3"><b><span id="datetime"></span></b></p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto nav-tabs nav-pills nav-fill" id="nav-bar-ul">
+                                </ul>
                         </div>
                 </div>
-        </header>
-        <!-- nav bar -->
-        <div class = "nav-bar" id = "nav-bar">
-        <nav>
-                <ul id="nav-bar-ul">    
-                </ul>
         </nav>
-        </div>
 
         <section class="container col-sm-6">
                 <image src = "/img/governance/statecabinetmeeting.jpg" alt = "">
