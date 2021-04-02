@@ -9,13 +9,12 @@ html {
 }
 
 .bordered {
-    border-style: ridge;
-    border-color: rgb(255, 135, 0);
+    border-top: 2px ridge rgb(255, 135, 0);
     padding: 10px;
 }
 
-.invisible-bordered {
-    border-style: none;
+.right-bordered {
+    border-right: 2px ridge rgb(255, 135, 0);
     padding: 10px;
 }
 
