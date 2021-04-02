@@ -10,12 +10,11 @@ html {
 
 .bordered {
     border-top: 2px ridge rgb(255, 135, 0);
-    padding: 10px;
+    margin: 10px;
 }
 
 .right-bordered {
     border-right: 2px ridge rgb(255, 135, 0);
-    padding: 10px;
 }
 
 .cover {
