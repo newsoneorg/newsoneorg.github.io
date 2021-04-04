@@ -43,6 +43,10 @@ body
     margin-bottom: 20px;
 }
 
+.phrase {
+    color: #c70009;
+}
+
 .bordered {
     border-top: 2px ridge rgb(255, 135, 0);
     padding-top: 10px;
