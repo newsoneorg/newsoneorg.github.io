@@ -22,6 +22,27 @@ body
     justify-content: center;
 }
 
+.bordered-article {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.article-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.article-image {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
 .bordered {
     border-top: 2px ridge rgb(255, 135, 0);
     padding-top: 10px;
