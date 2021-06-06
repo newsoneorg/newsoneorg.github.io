@@ -1,6 +1,5 @@
 $('document').ready(function() {
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/">HOME</a></li>')
-    $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/hindi.html">हिंदी</a></li>')
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/politics.html">POLITICS</a></li>')
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/governance.html">GOVERNANCE</a></li>')
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/covid-19.html">COVID-19</a></li>')
@@ -9,6 +8,8 @@ $('document').ready(function() {
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/newsmaker.html">NEWSMAKER</a></li>')
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/youth.html">YOUTH</a></li>')
     $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/potpourri.html">POTPOURRI</a></li>')
+    $("#nav-bar-ul").append('<li class="nav-item active"><a class="nav-link" href="/hindi.html">हिंदी</a></li>')
+
 
 
     var dt = new Date();
